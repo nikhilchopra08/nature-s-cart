@@ -1,0 +1,16 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+@import "./colors.scss";
+@import "./header.scss";
+@import "./cart.scss";
+@import "./mediaQuery.scss";
+body{
+    
+    background-color: $primary;
+color: $teritary;
+}

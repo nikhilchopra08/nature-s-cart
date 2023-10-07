@@ -1,0 +1,32 @@
+@import './colors.scss';
+
+.certification{
+    top: 6vh;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-holder{
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    text-align: center;
+    top: 6vh;
+    position: relative;
+        
+    img{
+        border-radius: 50%;
+        background-color: $teritary;
+        height: 60%;
+        }
+
+    >div{
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+        
+        
+    }
+}

@@ -1,0 +1,49 @@
+@import "./colors.scss"; 
+
+
+.review-list{
+   color: $primary;
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+
+   >h4{
+    color: $teritary;
+    text-align: center;
+    font-size: 30px;
+   }
+
+
+   >div{
+    display: flex;
+    gap: 4vh;
+    margin: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 10vh;
+    
+    >div{
+        width: 30%;
+        background-color: $teritary;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+        transition: all 0.5s ;
+        align-items: center;
+
+        &:hover{
+            transform: scale(1.06);
+            align-content: center;
+            background-color: azure;
+            color: black;
+        }
+
+        >h5{
+            text-align: center;
+            color: grey;
+        }
+        
+    }
+    }
+}
