@@ -2,7 +2,14 @@
 
 .products{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
+
+    >div{
+        >h9{
+            font-size: xx-large;
+            color: $primary;
+        }
+    }
 }
 
 .product-Card{

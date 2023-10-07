@@ -44,14 +44,111 @@ const Shop = () => {
       imgSrc: img4,
       id: "asdhajsdbhjfdfv",
     },
-    {
-      name: "Eco-Friendly Soap",
-      price: 490,
-      imgSrc: img2,
-      id: "laajsdbhjdfabhsjdfdfv",
-    },
-    
-  ];
+    ];
+
+    const productList2 = [
+      {
+        name: "Mac Book",
+        price: 12000,
+        imgSrc: img1,
+        id: "asdhajsdbhjfaabhsjdfdfv",
+      },
+      {
+        name: "Solar-Powered Chargers",
+        price: 490,
+        imgSrc: img2,
+        id: "sdjffabhsjdfdfv",
+      },
+      {
+        name: "LED Light Bulbs",
+        price: 12000,
+        imgSrc: img3,
+        id: "asdhajsdbdfdfv",
+      },
+      {
+        name: "Bamboo ToothBrush",
+        price: 490,
+        imgSrc: img5,
+        id: "sdjfdlaajsdbhjaddfdfv",
+      },
+      {
+        name: "Bamboo Basket"  ,
+        price: 12000,
+        imgSrc: img4,
+        id: "asdhajsdbhjfdfv",
+      },
+      {
+        name: "Mac Book",
+        price: 12000,
+        imgSrc: img1,
+        id: "asdhajsdbhjfaabhsjdfdfv",
+      },
+      {
+        name: "Solar-Powered Chargers",
+        price: 490,
+        imgSrc: img2,
+        id: "sdjffabhsjdfdfv",
+      },
+      {
+        name: "LED Light Bulbs",
+        price: 12000,
+        imgSrc: img3,
+        id: "asdhajsdbdfdfv",
+      },
+      {
+        name: "Bamboo ToothBrush",
+        price: 490,
+        imgSrc: img5,
+        id: "sdjfdlaajsdbhjaddfdfv",
+      },
+      {
+        name: "Bamboo Basket"  ,
+        price: 12000,
+        imgSrc: img4,
+        id: "asdhajsdbhjfdfv",
+      },{
+        name: "Mac Book",
+        price: 12000,
+        imgSrc: img1,
+        id: "asdhajsdbhjfaabhsjdfdfv",
+      },
+      {
+        name: "Solar-Powered Chargers",
+        price: 490,
+        imgSrc: img2,
+        id: "sdjffabhsjdfdfv",
+      },
+      {
+        name: "LED Light Bulbs",
+        price: 12000,
+        imgSrc: img3,
+        id: "asdhajsdbdfdfv",
+      },
+      {
+        name: "Bamboo ToothBrush",
+        price: 490,
+        imgSrc: img5,
+        id: "sdjfdlaajsdbhjaddfdfv",
+      },
+      {
+        name: "Bamboo Basket"  ,
+        price: 12000,
+        imgSrc: img4,
+        id: "asdhajsdbhjfdfv",
+      },
+      {
+        name: "Bamboo ToothBrush",
+        price: 490,
+        imgSrc: img5,
+        id: "sdjfdlaajsdbhjaddfdfv",
+      },
+      {
+        name: "Bamboo Basket"  ,
+        price: 12000,
+        imgSrc: img4,
+        id: "asdhajsdbhjfdfv",
+      },
+      ];
 
   const dispatch = useDispatch();
 
@@ -66,7 +163,26 @@ const Shop = () => {
     <>
 
   <div className="products">
+    <div className="product-Card">
+    <h9>Our Top products</h9>
+    </div>
       {productList.map((i) => (
+        <ProductCard
+          key={i.id}
+          imgSrc={i.imgSrc}
+          name={i.name}
+          price={i.price}
+          id={i.id}
+          handler={addToCartHandler}
+        />
+      ))}
+      </div>
+
+      <div className="products">
+      <div className="product-Card">
+    <h9>Our Other Sustainable products</h9>
+    </div>
+      {productList2.map((i) => (
         <ProductCard
           key={i.id}
           imgSrc={i.imgSrc}
