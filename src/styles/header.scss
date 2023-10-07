@@ -14,7 +14,15 @@ nav{
         display: flex;
         align-items: center;
     
+        >input{
+            right: 40px;
+position: relative;
+border-radius: 10px 10px;
+height: 20px;
+text-align: center;
+        }
         
+
         >a{
             color: $primary;
             font-size: 1.2rem;
@@ -38,34 +46,3 @@ nav{
     }
 
 }
-
-.hidden-content {
-    opacity: 0;
-    visibility: hidden;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: #fff;
-    padding: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    width: 125px;
-    height: 110px;
-    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
-    overflow: visible;
-    z-index: 1;
-    width: 100%;
-    top: 6%;
-}
-
-.content:hover .hidden-content{
-    opacity: 1;
-    visibility: visible;
-    background-color: $primary;
-}
-
-.login:hover .hidden-content{
-    opacity: 1;
-    visibility: visible;
-    background-color: $primary;
-}
-
