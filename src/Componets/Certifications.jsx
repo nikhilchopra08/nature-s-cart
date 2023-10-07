@@ -48,6 +48,7 @@ const Cards = ({ img, name, desc }) => {
             
             <img src={img} alt={name} />
             <h4>{name}</h4>
+            
         </div>
     );
 };

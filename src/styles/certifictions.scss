@@ -15,11 +15,16 @@
     text-align: center;
     top: 6vh;
     position: relative;
+    transition: all 0.8s;
+
         
     img{
         border-radius: 50%;
         background-color: $teritary;
         height: 60%;
+        }
+        &:hover{
+            transform: scale(1.01);
         }
 
     >div{
