@@ -1,4 +1,3 @@
-import './App.css'
 import "./styles/app.scss"
 import "./styles/home.scss"
 import "./styles/cart.scss"

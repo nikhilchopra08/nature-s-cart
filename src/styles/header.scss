@@ -13,6 +13,10 @@ nav{
     >div{
         display: flex;
         align-items: center;
+
+        >img{
+            width: 6%;
+        }
     
         >input{
             right: 40px;

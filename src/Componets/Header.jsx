@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import {FiShoppingBag} from 'react-icons/fi'
 import { useSelector } from 'react-redux'
 import Home from './Home'
+import logo from "./logo.png"
 
 const Header = () => {
 
@@ -11,8 +12,8 @@ const Header = () => {
     <>
     <nav>
       <div className='content'>
-        <h2>logo here..</h2>
-          </div>
+       <img src={logo}/>
+</div>
 
         <div>
         <input type="text" placeholder="Search.."/>
