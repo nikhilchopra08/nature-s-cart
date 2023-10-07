@@ -4,6 +4,7 @@ import "./styles/home.scss"
 import "./styles/cart.scss"
 import "./styles/certifictions.scss"
 import "./styles/reviews.scss"
+import "./styles/shop.scss"
 import { BrowserRouter,Route, Routes } from 'react-router-dom'
 import Home from './Componets/Home'
 import {Toaster} from 'react-hot-toast'
