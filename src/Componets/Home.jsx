@@ -23,6 +23,18 @@ const Home = () => {
       id: "asdhajsdbhjfaabhsjdfdfv",
     },
     {
+      name: "Water Bottle",
+      price: 20,
+      imgSrc: img1,
+      id: "asdhajsdbhjfaabhsjdfdfv",
+    },
+    {
+      name: "Water Bottle",
+      price: 20,
+      imgSrc: img1,
+      id: "asdhajsdbhjfaabhsjdfdfv",
+    },
+    {
       name: "Solar-Powered Chargers",
       price: 1400,
       imgSrc: img2,
