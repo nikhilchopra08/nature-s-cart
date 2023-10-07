@@ -9,6 +9,7 @@ import Home from './Componets/Home'
 import {Toaster} from 'react-hot-toast'
 import Cart from './Componets/Cart'
 import Header from './Componets/Header'
+import Shop from './Componets/Shop'
 
 function App() {
   
@@ -20,6 +21,7 @@ function App() {
       
         <Route path='/' element= {<Home/>}/>
         <Route path='/cart' element= {<Cart/>}/>
+        <Route path='/shop' element= {<Shop/>}/>
       </Routes>
       <Toaster/>
     </BrowserRouter> 

@@ -17,7 +17,7 @@ const Header = () => {
 
         <div>
         <input type="text" placeholder="Search.."/>
-            <Link to={"/"}>Shop All</Link>
+            <Link to={"/shop"}>Shop All</Link>
             <Link to={"/"}>Home</Link>
             <Link to={"/"}>Handmade Crafts</Link>
             <Link to={"/"}>Login</Link>
