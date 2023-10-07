@@ -64,6 +64,7 @@ const Cart = () => {
         <h2>Shipping: Rs.{shipping}</h2>
         <h2>Tax: Rs.{tax}</h2>
         <h2>Total: Rs.{total}</h2>
+        <button>Buy Now</button>
             </aside>
           </div>
         );
