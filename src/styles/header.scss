@@ -1,6 +1,85 @@
 @import "./colors.scss";
 
+
 nav{
+    background-color: $secondary;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+    height: 5vh;
+    
+    >div{
+       float: left;
+
+    >ul{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 2rem;
+        position: relative;
+        top: 10px;
+        flex-direction: row;
+        gap: 3vw;
+        list-style: none;
+
+        >li{
+        >a{
+                color: $primary;
+                font-size: 1.2rem;
+                margin: 0 1rem;
+                transition: all 0.3s;
+                text-align: center;
+                position: relative;
+                &:hover{
+                    opacity: 0.5;
+                }
+
+                >p{
+                    position: absolute;
+                    background-color: $teritary;
+                    border-radius: 50%;
+                    width: 15px;
+                    height: 15px;
+                    font: 900 0.6rem;
+                    display: grid;
+                    place-items: center;
+                    transform: translate(80% , -80%);
+                }
+        }
+    }
+    }
+}
+}
+
+.left{
+    
+        display: flex;
+        align-items: center;
+
+        >img{
+            width: 6%;
+        }
+}
+// .nav{
+//     display: flex;
+//     height: 5vh;
+//     color: $teritary;
+//     list-style: none;
+    // float: right;
+    // flex-direction: row;
+    // gap: 4vw;
+//     background-color: aliceblue;
+    
+//     >li{
+      
+//     }
+//     >a{
+//         text-decoration: none;
+//         font-size: 24px;
+//         position: relative;
+//         top: 3%;
+//     }
+// }
+/*nav{
     background-color: $secondary;
     display: flex;
     justify-content: space-between;
@@ -51,3 +130,4 @@ text-align: center;
     }
 
 }
+*/

@@ -1,6 +1,21 @@
 @media screen and (max-width: 820px) {
     @import './colors.scss';
 
+.certification{
+    grid-template-columns: 1fr;
+    
+    >img{
+        height: 40%;
+        
+    }
+}
+
+.card-holder{
+    gap: 5%;
+
+   
+}
+
 .cart{
 
     grid-template-columns:1fr;;
